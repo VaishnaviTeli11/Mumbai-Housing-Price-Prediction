@@ -16,14 +16,14 @@ st.set_page_config(
 # ---------------------------------------------------
 BASE_DIR = os.path.dirname(__file__)
 
-df = pd.read_csv(
-    os.path.join(
-        BASE_DIR,
-        "data",
-        "raw",
-        "mumbai_housing_price.csv"
-    )
-)
+df = pd.read_csv("C:/Mumbai_Real_Estate_Intelligence/data/cleaned/mumbai_housing_price_cleaned.csv")
+
+df["Area"] = "Andheri"
+
+df.loc[df["Area_Bandra"] == 1, "Area"] = "Bandra"
+df.loc[df["Area_Borivali"] == 1, "Area"] = "Borivali"
+df.loc[df["Area_Colaba"] == 1, "Area"] = "Colaba"
+df.loc[df["Area_Powai"] == 1, "Area"] = "Powai"
 
 # ---------------------------------------------------
 # Title
