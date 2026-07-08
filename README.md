@@ -170,13 +170,14 @@ Generate actionable market insights and trends for investors and buyers.
 
 # Home Page
 
-![Home](reports/screenshots/home.png)
+![Home](reports/screenshots/Home_1.png)
+![Home](reports/screenshots/Home_2.png)
 
 # Area Comparison
 
-![Area Comparison](reports/screenshots/Area_Comparison_1.png)
-![Area Comparison](reports/screenshots/Area_Comparison_2.png)
-![Area Comparison](reports/screenshots/Area_Comparison_3.png)
+![Area Comparison](reports/screenshots/Area_Comparision_1.png)
+![Area Comparison](reports/screenshots/Area_Comparision_2.png)
+![Area Comparison](reports/screenshots/Area_Comparision_3.png)
 
 # Mumbai Heatmap
 
